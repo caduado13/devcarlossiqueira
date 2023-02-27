@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/devcarlossiqueira/static/css/main.4dec8016.css",
+    "main.css": "/devcarlossiqueira/static/css/main.0e613fa0.css",
     "main.js": "/devcarlossiqueira/static/js/main.d7655736.js",
     "static/js/787.aae35923.chunk.js": "/devcarlossiqueira/static/js/787.aae35923.chunk.js",
     "static/media/about.png": "/devcarlossiqueira/static/media/about.56e74b1317880a637995.png",
@@ -8,12 +8,12 @@
     "static/media/perfil.avif": "/devcarlossiqueira/static/media/perfil.b7e8f78cf2235d566d61.avif",
     "static/media/dw-full.avif": "/devcarlossiqueira/static/media/dw-full.b15f0553a95a6343d34d.avif",
     "index.html": "/devcarlossiqueira/index.html",
-    "main.4dec8016.css.map": "/devcarlossiqueira/static/css/main.4dec8016.css.map",
+    "main.0e613fa0.css.map": "/devcarlossiqueira/static/css/main.0e613fa0.css.map",
     "main.d7655736.js.map": "/devcarlossiqueira/static/js/main.d7655736.js.map",
     "787.aae35923.chunk.js.map": "/devcarlossiqueira/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dec8016.css",
+    "static/css/main.0e613fa0.css",
     "static/js/main.d7655736.js"
   ]
 }
