@@ -29,9 +29,9 @@ function Header(){
         return(<div className="portifolio__header-background section_padding">
         <section className="portifolio__header_section">
             <div className="portifolio__header_section-title">
-            <Title text={"Hello, i'm Carlos Eduardo"} duration = {1}/>
-            <Title text={"Wellcome to my personal portifoilio"} duration = {2}/>
-            <Par text={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit veniam qui eos magni exercitationem beatae alias ipsam vitae inventore soluta dignissimos modi accusantium obcaecati voluptate vel quae eum, totam provident!"} duration = {3}/>
+                <Title text={"Hello, i'm Carlos Eduardo"} duration = {1}/>
+                <Title text={"Wellcome to my personal portifoilio"} duration = {2}/>
+                <Par text={"I developed this web page to challenge myself and show my evolution in react.js, I show you a little about the projects I've done, a little about myself and my contacts"} duration = {3}/>
             </div>
             <div className="portifolio__header_section-image">
                 <div className="portifolio__header_section-image_info1 slit-in-vertical">

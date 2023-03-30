@@ -35,11 +35,9 @@
     width: 150px;
     height: 80px;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     z-index: 1;
     font-family: var(--font_family);
-    color: #fff;
-    text-shadow: 1px 1px 5px #000;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -52,11 +50,14 @@
 .portifolio__header_section-image_info2 p{
     padding-left: 10px;
     font-size: 0.8rem;
+    color: var(--bg_color_blue); 
+    font-weight: bold;
 }
 
 .portifolio__header_section-image_info1 span,
 .portifolio__header_section-image_info2 span{
     font-style: italic;
+    
 }
 
 .portifolio__header_section-image_info2{

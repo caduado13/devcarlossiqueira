@@ -5,24 +5,24 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
     overflow: hidden;
+    padding-bottom: 15px;
 }
 
-.portifolio__projects_project-container h1{
+.portifolio__projects-content_project-content h1{
     font-family: var(--font_family);
     color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    font-size: 1.5rem;
 }
 
-.portifolio__projects_project-container p{
-    padding: 0 20px;
+.portifolio__projects-content_project-content p{
     font-family: var(--font_family);
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #fff;
 }
-
+ 
 .portifolio__projects_project-container img{
     width: 100%;
+    height: 250px;
 }
 
 .portifolio__projects_project-list{
@@ -41,24 +41,61 @@
     font-weight: bold;
 }
 
-.portifolio__projects_project-buttons{
+.portifolio__projects-content_project-content_btns{
     display: flex;
     justify-content: space-between;
-    padding: 10px 50px;
 }
 
-.portifolio__projects_project-buttons button{
+.portifolio__projects-content_project-content_list li{
+    background-color: var(--bg_color_white);
+    font-family: var(--font_family);
+    color: var(--bg_color_dblue);
+    border: 1px solid var(--bg_color_dblue);
     width: 100px;
+    padding: 5px 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.portifolio__projects-content_project-content_list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.portifolio__projects-content_project-content_btns button{
+    width: 150px;
     padding: 10px;
     border: none;
-    background-color: var(--bg_color_dblue);
+    background-color: var(--bg_color_red);
     color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
     cursor: pointer;
 }
 
+.portifolio__projects-content_project-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 10px;
+    height: calc(100% - 240px);
+}
+
 @media screen and (max-width:900px) {
+
+    .portifolio__projects-content_project-content_btns{
+        flex-direction: column;
+        align-items: center;
+    }
+    .portifolio__projects-content_project-content_btns button{
+        margin: 10px 0;
+        width: 200px;
+    }
+
     .portifolio__projects_project-container{
-        width: 250px;
+        width: 300px;
         height: 600px;
         background-color: var(--bg_color_blue);
     }   

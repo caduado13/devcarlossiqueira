@@ -18,9 +18,8 @@
     position: relative;
 }
 
-.portifolio__projects h1{
+.portifolio__projects .main-h1{
     font-family: var(--font_family);
-    color: var(--gradient-text);
     font-size: 2rem;
     padding-bottom: 100px;
 }

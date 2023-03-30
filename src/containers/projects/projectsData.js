@@ -1,21 +1,37 @@
-import { dwFull } from "../../containers/projects/imports";
+import { dwFull, spotifyImg, lpChatGPTImg,moviesApiImg } from "../../containers/projects/imports";
 
 export const projectData = [
     {
         title: "Drink Water App",
         desc: "Application for manipulate your wather consum per day.",
-        imgUrl: dwFull,
-        tags: ["HTML", "CSS", "Java Script"],
-        source: "...",
-        visit: "...",
+        image: dwFull,
+        tags: ["HTML", "CSS", "JavaScript"],
+        source: "https://github.com/caduado13/Drink-water-app",
+        visit: "https://caduado13.github.io/Drink-water-app/",
         id: 0,
     },{
-        title: "Drink Water App",
-        desc: "Application for manipulate your wather consum per day.",
-        imgUrl: dwFull,
-        tags: ["HTML", "CSS", "React"],
-        source: "...",
-        visit: "...",
+        title: "Movies API",
+        desc: "Website with the upcoming and trending movies getting data of the The Movie Data Base Api",
+        image: moviesApiImg,
+        tags: ["React", "Axios", "ContextAPI"],
+        source: "https://github.com/caduado13/Movies-api-react",
+        visit: "https://caduado13.github.io/Movies-api-react/",
         id: 1,
+    },{
+        title: "Spotify Clone",
+        desc: "A clone of the spotify web browser in React.",
+        image: spotifyImg,
+        tags: ["TailWind", "Axios", "React"],
+        source: "https://github.com/caduado13/spotify-clone",
+        visit: "...",
+        id: 2,
+    },{
+        title: "ChatGPT3 LP",
+        desc: "A modern landing page telling a little about the new chatGPT",
+        image: lpChatGPTImg,
+        tags: ["React", "CSS"],
+        source: "https://github.com/caduado13/landing-page-cgpt3",
+        visit: "...",
+        id: 3,
     }
 ]
