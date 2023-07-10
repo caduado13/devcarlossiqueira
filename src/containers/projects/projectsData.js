@@ -18,12 +18,12 @@ export const projectData = [
         visit: "https://caduado13.github.io/Movies-api-react/",
         id: 1,
     },{
-        title: "Spotify Clone",
-        desc: "A clone of the spotify web browser in React.",
+        title: "Task-management",
+        desc: "Task management.",
         image: spotifyImg,
-        tags: ["TailWind", "Axios", "React"],
-        source: "https://github.com/caduado13/spotify-clone",
-        visit: "...",
+        tags: ["React", "Typescript"],
+        source: "https://github.com/caduado13/Task-management",
+        visit: "https://caduado13.github.io/Task-management/",
         id: 2,
     },{
         title: "ChatGPT3 LP",

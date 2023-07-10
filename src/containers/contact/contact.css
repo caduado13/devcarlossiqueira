@@ -83,6 +83,13 @@
         max-width: 768px;
         align-items: center;
     }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
     .portifolio__contact_inputs{
         display: flex;
         flex-direction: column;
