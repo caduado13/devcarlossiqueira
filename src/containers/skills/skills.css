@@ -29,9 +29,21 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px 0;
+    width: 50%;
+}
+
+.portifolio__skills_techs-content div{
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width: 500px){
+    .tech-icons{
+        width: 60px;
+    }
+    .portifolio__skills_techs-content{
+        width: 100%;
+    }
     .portifolio__skills-container{
         max-width: 350px;
         margin: 0 auto;
@@ -40,7 +52,7 @@
     }
 
     .portifolio__skills-container p{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-weight: normal;
         color: #fff;
         font-family: var(--font_family);

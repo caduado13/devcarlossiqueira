@@ -1,4 +1,4 @@
-import { dwFull, spotifyImg, lpChatGPTImg,moviesApiImg } from "../../containers/projects/imports";
+import { dwFull, taskManagementBG, lpChatGPTImg,moviesApiImg } from "../../containers/projects/imports";
 
 export const projectData = [
     {
@@ -20,8 +20,8 @@ export const projectData = [
     },{
         title: "Task-management",
         desc: "Task management.",
-        image: spotifyImg,
-        tags: ["React", "Typescript"],
+        image: taskManagementBG,
+        tags: ["React", "Typescript", "CSS"],
         source: "https://github.com/caduado13/Task-management",
         visit: "https://caduado13.github.io/Task-management/",
         id: 2,

@@ -2,44 +2,60 @@ import React from "react";
 import "./skills.css";
 import {FaHtml5, FaNodeJs, FaCss3Alt, FaReact} from "react-icons/fa"
 import {SiJavascript, SiMongodb} from "react-icons/si"
-import ProgressBar from "../../components/progressBar/progressBar";
+import { BsFillMortarboardFill } from "react-icons/bs"
+import {PiBooksFill} from "react-icons/pi"
+import {MdWorkspacePremium} from "react-icons/md"
+
+
 
 function Skills(){
-
     return(<div className="portifolio__skills section_padding">
         <div className="portifolio__skills-container">
             <h1>Skills</h1>
             <div className="portifolio__skills_techs-container">
                 <div className="portifolio__skills_techs-content">
-                    <FaHtml5 color="#fff" size={100} className = "tech-icons"/>
-                    <p>HTML:</p>
-                    <ProgressBar progress={"98%"}/>
+                    <div>
+                        <FaHtml5 color="#fff" size={100} className = "tech-icons"/>
+                        <p>HTML: Senior Level</p>
+                    </div>
+                    <MdWorkspacePremium color="#fff" size={100} className = "tech-icons"/>
                 </div>
                 <div className="portifolio__skills_techs-content">
+                    <div>
                     <FaCss3Alt color="#fff" size={100} className = "tech-icons"/>
-                    <p>CSS: </p>
-                    <ProgressBar progress={"97%"}/>
+                        <p>CSS: Senior Level</p>
+                    </div>
+                    <MdWorkspacePremium color="#fff" size={100} className = "tech-icons"/>
                 </div>
                 <div className="portifolio__skills_techs-content">
+                    <div>
                     <SiJavascript color="#fff" size={100} className = "tech-icons"/>
-                    <p>Java Script: </p>
-                    <ProgressBar progress={"90%"}/>
+                        <p>Java Script: Junior Level</p>
+                    </div>
+                    <BsFillMortarboardFill color="#fff" size={100} className = "tech-icons"/>
                 </div>
                 <div className="portifolio__skills_techs-content">
+                    <div>
                     <FaReact color="#fff" size={100} className = "tech-icons"/>
-                    <p>React.JS: </p>
-                    <ProgressBar progress={"90%"}/>        
-                </div>
-{/*                 <div className="portifolio__skills_techs-content">
-                    <FaNodeJs color="#fff" size={100} className = "tech-icons"/>
-                    <p>Node.JS: </p>
-                    <ProgressBar progress={"90%"}/>
+                        <p>React.JS: Junior Level</p>        
+                    </div>
+                    <BsFillMortarboardFill color="#fff" size={100} className = "tech-icons"/>
                 </div>
                 <div className="portifolio__skills_techs-content">
+                    
+                    <div>
+                    <FaNodeJs color="#fff" size={100} className = "tech-icons"/>
+                        <p>Node.JS: Entry Level</p>
+                    </div>
+                    <PiBooksFill color="#fff" size={100} className = "tech-icons"/>
+                </div>
+                <div className="portifolio__skills_techs-content">
+                    <div>
                     <SiMongodb color="#fff" size={100} className = "tech-icons"/>
-                    <p>MongoDB: </p>
-                    <ProgressBar progress={"90%"}/>
-                </div> */}
+                        <p>MongoDB: Entry Level</p>
+                    </div>
+                    <PiBooksFill color="#fff" size={100} className = "tech-icons"/>
+                </div> 
             </div>
         </div>
     </div>)
