@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/devcarlossiqueira/static/css/main.a00f721e.css",
-    "main.js": "/devcarlossiqueira/static/js/main.63df3657.js",
+    "main.css": "/devcarlossiqueira/static/css/main.e8966743.css",
+    "main.js": "/devcarlossiqueira/static/js/main.3adf3bfb.js",
     "static/js/787.aae35923.chunk.js": "/devcarlossiqueira/static/js/787.aae35923.chunk.js",
+    "static/media/task-management-bg.png": "/devcarlossiqueira/static/media/task-management-bg.a01595aa4c4b4b29a156.png",
     "static/media/movies-api-img.png": "/devcarlossiqueira/static/media/movies-api-img.aa72f7bcad747637f18c.png",
     "static/media/about.png": "/devcarlossiqueira/static/media/about.56e74b1317880a637995.png",
     "static/media/landing-page-img.png": "/devcarlossiqueira/static/media/landing-page-img.27efdb18182dbb72a7b7.png",
-    "static/media/spotify-img.png": "/devcarlossiqueira/static/media/spotify-img.506f65e9de3b5e83ae2f.png",
     "static/media/space.avif": "/devcarlossiqueira/static/media/space.acfeec54fa2cae9bafe0.avif",
     "static/media/dw-full.avif": "/devcarlossiqueira/static/media/dw-full.b15f0553a95a6343d34d.avif",
     "index.html": "/devcarlossiqueira/index.html",
-    "main.a00f721e.css.map": "/devcarlossiqueira/static/css/main.a00f721e.css.map",
-    "main.63df3657.js.map": "/devcarlossiqueira/static/js/main.63df3657.js.map",
+    "main.e8966743.css.map": "/devcarlossiqueira/static/css/main.e8966743.css.map",
+    "main.3adf3bfb.js.map": "/devcarlossiqueira/static/js/main.3adf3bfb.js.map",
     "787.aae35923.chunk.js.map": "/devcarlossiqueira/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a00f721e.css",
-    "static/js/main.63df3657.js"
+    "static/css/main.e8966743.css",
+    "static/js/main.3adf3bfb.js"
   ]
 }
