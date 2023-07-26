@@ -1,8 +1,8 @@
 import React from "react";
 import "./lenguages.css"
 import {FaHtml5, FaNodeJs, FaCss3Alt, FaReact} from "react-icons/fa"
-import {SiJavascript, SiMongodb} from "react-icons/si"
-import {VscGear} from "react-icons/vsc"
+import {SiJavascript, SiMongodb, SiTypescript} from "react-icons/si"
+import {VscGear} from "react-icons/vsc";
 
 function Lenguages(){
     return(<div id="technologies" className="portifolio__technologies-bg section_padding">
@@ -19,6 +19,7 @@ function Lenguages(){
                 <FaCss3Alt color="#2862e9" size={100} className = "tech-icons"/>
                 <SiJavascript color="#f7df1e" size={100} className = "tech-icons"/>
                 <FaReact color="#5ed3f3" size={100} className = "tech-icons"/>
+                <SiTypescript color="#2f74c0" size={100} className = "tech-icons"/>
                 <FaNodeJs color="#7cb73f" size={100} className = "tech-icons"/>
                 <SiMongodb color="#10a54e" size={100} className = "tech-icons"/>
             </div>

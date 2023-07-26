@@ -19,7 +19,7 @@ export const projectData = [
         id: 1,
     },{
         title: "Task-management",
-        desc: "Task management.",
+        desc: "Task management to organize your work of the week and your calendar.",
         image: taskManagementBG,
         tags: ["React", "Typescript", "CSS"],
         source: "https://github.com/caduado13/Task-management",
