@@ -29,12 +29,12 @@ export const data = [
         level: "junior"
     },
     {
-        title: "Node.JS: Senior level",
+        title: "Node.JS: Entry level",
         icon: <FaNodeJs color="#fff" size={100} className = "tech-icons"/>,
         level: "entry"
     },
     {
-        title: "MongoDB: Senior level",
+        title: "MongoDB: Entry level",
         icon: <SiMongodb color="#fff" size={100} className = "tech-icons"/>,
         level: "entry"
     },
