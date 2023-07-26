@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/devcarlossiqueira/static/css/main.e8966743.css",
-    "main.js": "/devcarlossiqueira/static/js/main.532036cb.js",
+    "main.js": "/devcarlossiqueira/static/js/main.bb271eda.js",
     "static/js/787.aae35923.chunk.js": "/devcarlossiqueira/static/js/787.aae35923.chunk.js",
     "static/media/task-management-bg.png": "/devcarlossiqueira/static/media/task-management-bg.a01595aa4c4b4b29a156.png",
     "static/media/movies-api-img.png": "/devcarlossiqueira/static/media/movies-api-img.aa72f7bcad747637f18c.png",
@@ -11,11 +11,11 @@
     "static/media/dw-full.avif": "/devcarlossiqueira/static/media/dw-full.b15f0553a95a6343d34d.avif",
     "index.html": "/devcarlossiqueira/index.html",
     "main.e8966743.css.map": "/devcarlossiqueira/static/css/main.e8966743.css.map",
-    "main.532036cb.js.map": "/devcarlossiqueira/static/js/main.532036cb.js.map",
+    "main.bb271eda.js.map": "/devcarlossiqueira/static/js/main.bb271eda.js.map",
     "787.aae35923.chunk.js.map": "/devcarlossiqueira/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8966743.css",
-    "static/js/main.532036cb.js"
+    "static/js/main.bb271eda.js"
   ]
 }
