@@ -31,7 +31,7 @@ export const projectData = [
         image: lpChatGPTImg,
         tags: ["React", "CSS"],
         source: "https://github.com/caduado13/landing-page-cgpt3",
-        visit: "...",
+        visit: "https://caduado13.github.io/landing-page-cgpt3/",
         id: 3,
     }
 ]
