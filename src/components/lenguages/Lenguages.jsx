@@ -1,7 +1,7 @@
 import React from "react";
 import "./lenguages.css"
 import {FaHtml5, FaNodeJs, FaCss3Alt, FaReact} from "react-icons/fa"
-import {SiJavascript, SiMongodb, SiTypescript} from "react-icons/si"
+import {SiJavascript, SiMongodb, SiTypescript, SiRedux} from "react-icons/si"
 import {VscGear} from "react-icons/vsc";
 
 function Lenguages(){
@@ -18,8 +18,9 @@ function Lenguages(){
                 <FaHtml5 color="#dd4b25" size={100} className = "tech-icons"/>
                 <FaCss3Alt color="#2862e9" size={100} className = "tech-icons"/>
                 <SiJavascript color="#f7df1e" size={100} className = "tech-icons"/>
-                <FaReact color="#5ed3f3" size={100} className = "tech-icons"/>
                 <SiTypescript color="#2f74c0" size={100} className = "tech-icons"/>
+                <FaReact color="#5ed3f3" size={100} className = "tech-icons"/>
+                <SiRedux color="#764abc" size={100} className = "tech-icons"/>
                 <FaNodeJs color="#7cb73f" size={100} className = "tech-icons"/>
                 <SiMongodb color="#10a54e" size={100} className = "tech-icons"/>
             </div>
