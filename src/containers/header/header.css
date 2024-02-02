@@ -36,10 +36,10 @@
     width: 150px;
     height: 80px;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
     font-family: var(--font_family);
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.6);
 }
 
 .portifolio__header_section-image_info1{
@@ -50,7 +50,7 @@
 .portifolio__header_section-image_info1 p,
 .portifolio__header_section-image_info2 p{
     padding-left: 10px;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     color: #fff;
     font-weight: 200;
 }
@@ -69,13 +69,11 @@
     text-decoration: none;
     padding-left: 15px;
     font-weight: bolder;
-
 }
 
 .curriculum-download_div{
     position: absolute;
     bottom: -200px;
-
     width: 400px;
 
 }
