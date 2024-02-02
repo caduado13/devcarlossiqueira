@@ -20,9 +20,21 @@ function Navbar(){
     
     const MenuSocial = () => (
         <>
-            <li><a href="mailto:caduadosiqueira@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail fontSize={25}/></a></li>
-            <li><a href="https://www.linkedin.com/in/dev-carlos-siqueira" target="_blank" rel="noopener noreferrer"><FaLinkedin fontSize={25}/></a></li>
-            <li><a href="https://github.com/caduado13" target="_blank" rel="noopener noreferrer"><FaGithub fontSize={25}/></a></li>
+            <li>
+                <a href="mailto:caduadosiqueira@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <MdEmail fontSize={30}  className="icons-social" color="#efe18e"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/dev-carlos-siqueira" target="_blank" rel="noopener noreferrer" >
+                    <FaLinkedin fontSize={30} className="icons-social" color="#0a66c2"/>
+                    </a>
+                </li>
+            <li>
+                <a href="https://github.com/caduado13" target="_blank" rel="noopener noreferrer" >
+                    <FaGithub fontSize={30} className="icons-social" color="#1f2328"/>
+                </a>
+            </li>
         </>)
     return(<div>
         <header className="portifolio__navbar portifolio__navbar__bg">

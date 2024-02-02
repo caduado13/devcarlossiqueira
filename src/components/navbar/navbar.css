@@ -35,7 +35,8 @@
 }
 .portifolio__navbar ul li a{
     text-decoration: none;
-    color: var(--bg_color_white);
+    color: var(--bg_color_white); 
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .portifolio__navbar-mobile{
@@ -60,6 +61,11 @@
     display: flex;
     padding: 10px 0;
 }
+.icons-social:hover{
+    scale: 1.2;
+    transition: 500ms;
+}
+
 
 @media screen and (max-width: 1050px){
     .portifolio__navbar{

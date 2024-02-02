@@ -1,29 +1,7 @@
 import React from "react";
 import "./header.css";
 import Loop from "../../components/reactLoop/Loop";
-
-import {motion} from "framer-motion";
 import { FaFileDownload } from "react-icons/fa";
-
-const Title = ({text, duration}) =>(
-    <>
-        <motion.h1 className="gradient__text"
-                initial = {{opacity: 0, scale: 0.5}}
-                animate ={{opacity: 1, scale: 1}}
-                transition = {{duration: duration}}
-        >{text}</motion.h1>
-    </>
-)
-const Par = ({text, duration}) =>(
-    <>
-        <motion.p 
-                initial = {{opacity: 0, scale: 0.5}}
-                animate ={{opacity: 1, scale: 1}}
-                transition = {{duration: duration}}
-        >{text}</motion.p>
-    </>
-)
-
 
 function Header(){
         const publicDir = process.env.PUBLIC_URL
@@ -32,9 +10,9 @@ function Header(){
         <section className="portifolio__header_section">
         
             <div className="portifolio__header_section-title">
-                <Title text={"Hello, i'm Carlos Eduardo"} duration = {1}/>
-                <Title text={"Wellcome to my personal portifoilio"} duration = {2}/>
-                <Par text={"I developed this web page to challenge myself and show my evolution in react.js, I show you a little about the projects I've done, a little about myself and my contacts"} duration = {3}/>
+                <h1 className="gradient__text">Hello, i'm Carlos Eduardo</h1>
+                <h1 className="gradient__text">Wellcome to my personal portifoilio</h1>
+                <p>I developed this web page to challenge myself and show my evolution in react.js, I show you a little about the projects I've done, a little about myself and my contacts</p>
                 <div className="curriculum-download_div">
                     <a href={`${publicDir}/Carlos_Siqueira_CV.pdf`} download={"Carlos_Siqueira_CV.pdf"} className="curriculum-download gradient__text" id="download_cv"><FaFileDownload size={25} color="gray" /> Download my curriculum</a>
                 </div>
