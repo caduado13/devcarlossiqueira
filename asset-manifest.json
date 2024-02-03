@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/devcarlossiqueira/static/css/main.19d33e7c.css",
-    "main.js": "/devcarlossiqueira/static/js/main.cc7df8db.js",
-    "static/js/787.aae35923.chunk.js": "/devcarlossiqueira/static/js/787.aae35923.chunk.js",
+    "main.js": "/devcarlossiqueira/static/js/main.da09d20f.js",
     "static/media/task-management-bg.png": "/devcarlossiqueira/static/media/task-management-bg.a01595aa4c4b4b29a156.png",
     "static/media/movies-api-img.png": "/devcarlossiqueira/static/media/movies-api-img.aa72f7bcad747637f18c.png",
     "static/media/about.png": "/devcarlossiqueira/static/media/about.56e74b1317880a637995.png",
@@ -11,11 +10,10 @@
     "static/media/dw-full.avif": "/devcarlossiqueira/static/media/dw-full.b15f0553a95a6343d34d.avif",
     "index.html": "/devcarlossiqueira/index.html",
     "main.19d33e7c.css.map": "/devcarlossiqueira/static/css/main.19d33e7c.css.map",
-    "main.cc7df8db.js.map": "/devcarlossiqueira/static/js/main.cc7df8db.js.map",
-    "787.aae35923.chunk.js.map": "/devcarlossiqueira/static/js/787.aae35923.chunk.js.map"
+    "main.da09d20f.js.map": "/devcarlossiqueira/static/js/main.da09d20f.js.map"
   },
   "entrypoints": [
     "static/css/main.19d33e7c.css",
-    "static/js/main.cc7df8db.js"
+    "static/js/main.da09d20f.js"
   ]
 }
