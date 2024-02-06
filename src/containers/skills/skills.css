@@ -1,6 +1,9 @@
 .portifolio__skills{
     background-color: var(--bg_color_white);
 }
+.portifolio__skills.dark-mode{
+    background-color: var(--bg-dark-mode);
+}
 
 .portifolio__skills-container{
     max-width: 1280px;
@@ -9,6 +12,9 @@
     background-color: var(--bg_color_blue);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 10px;
     border-radius: 10px;
+}
+.portifolio__skills-container.dark-mode{
+    background-color: var(--bg_color_dblue);
 }
 .portifolio__skills-container h1{
     padding-bottom: 50px;

@@ -8,15 +8,15 @@ import Title from "./projetcs-comp/Title"
 import Tag from "./projetcs-comp/Tag";
 
 
-function Projects(){
-    return(<div className="portifolio__projects-bg section_padding" id="projects">
+function Projects({darkMode}){
+    return(<div className={`portifolio__projects-bg ${darkMode ? "dark-mode": ""} section_padding`} id="projects">
         <section className="portifolio__projects ">
-            <h1 className="gradient__text main-h1">Projects</h1>
-            <div className="rect"/>
+            <h1 className={`gradient__text main-h1 ${darkMode ? "dark-mode": ""}`}>Projects</h1>
+            <div className={`rect ${darkMode ? "dark-mode": ""}`}/>
             <div className="flex-grid">
             <div className="portifolio__projects-content">
                 {projectData.map(({title, desc, image, tags, source, visit, id}) =>(
-                    <Project key={id}>
+                    <Project key={id} darkMode={darkMode}>
                         <div>
                             <Img img={image}/>
                         </div>
@@ -29,8 +29,8 @@ function Projects(){
                                 ))}
                             </ul>
                             <div className="portifolio__projects-content_project-content_btns" >
-                                <a href={visit} rel="noreferrer" target = "_blank"><button>Visit</button></a>
-                                <a href={source} rel="noreferrer" target = "_blank"><button>Git Hub</button></a>    
+                                <a href={visit} rel="noreferrer" target = "_blank"><button className={`${darkMode ? "dark-mode": ""}`}>Visit</button></a>
+                                <a href={source} rel="noreferrer" target = "_blank"><button className={`${darkMode ? "dark-mode": ""}`}>Git Hub</button></a>    
                             </div>
                         </div>
                     </Project>

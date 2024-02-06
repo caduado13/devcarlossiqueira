@@ -8,6 +8,10 @@
     padding-bottom: 15px;
 }
 
+.portifolio__projects_project-container.dark-mode{
+    background-color: var(--bg_color_dblue);
+}
+
 .portifolio__projects-content_project-content h1{
     font-family: var(--font_family);
     color: #fff;
@@ -75,6 +79,10 @@
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.portifolio__projects-content_project-content_btns button.dark-mode{
+    background-color: hsl(0, 100%, 40%);
 }
 
 .portifolio__projects-content_project-content{

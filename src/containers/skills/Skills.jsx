@@ -29,9 +29,9 @@ const componentLevel = (level) => {
     )
 }
 
-function Skills(){
-    return(<div className="portifolio__skills section_padding">
-        <div className="portifolio__skills-container">
+function Skills({darkMode}){
+    return(<div className={`portifolio__skills ${darkMode ? "dark-mode" : ""} section_padding`}>
+        <div className={`portifolio__skills-container ${darkMode ? "dark-mode" : ""}`}>
             <h1>Skills</h1>
             <div className="portifolio__skills_techs-container">
                 {data.map((data, index) =>(

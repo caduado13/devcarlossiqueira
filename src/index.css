@@ -8,4 +8,7 @@
   --font_family: 'Space Mono', monospace;
   --gradient-text: linear-gradient(89.97deg, #E63946 1.84%, #457B9D 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-text-dark-mode: linear-gradient(89.97deg, #F1FAEE 1.84%, #E63946 102.67%);
+  --bg-dark-mode: hsl(0, 0%, 10%);
 }
+

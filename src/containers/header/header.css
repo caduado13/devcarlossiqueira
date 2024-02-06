@@ -1,6 +1,10 @@
 .portifolio__header-background{
     background-color: var(--bg_color_white);
 }
+.portifolio__header-background.dark-mode{
+    background-color: var(--bg-dark-mode);
+    color: #fff;
+}
 
 .portifolio__header_section{
     display: flex;
@@ -42,6 +46,13 @@
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.6);
 }
 
+.portifolio__header_section-image_info1.dark-mode,
+.portifolio__header_section-image_info2.dark-mode{
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.4);
+    color: black;
+}
+
 .portifolio__header_section-image_info1{
     top: -40px;
     right: -40px;
@@ -53,6 +64,11 @@
     font-size: 0.85rem;
     color: #fff;
     font-weight: 200;
+}
+.portifolio__header_section-image_info1 p.dark-mode,
+.portifolio__header_section-image_info2 p.dark-mode{
+    color: #000;
+    font-weight: bold;
 }
 
 .portifolio__header_section-image_info1 span,

@@ -4,15 +4,15 @@ import {FaHtml5, FaNodeJs, FaCss3Alt, FaReact} from "react-icons/fa"
 import {SiJavascript, SiMongodb, SiTypescript, SiRedux} from "react-icons/si"
 import {VscGear} from "react-icons/vsc";
 
-function Lenguages(){
-    return(<div id="technologies" className="portifolio__technologies-bg section_padding">
+function Lenguages({darkMode}){
+    return(<div id="technologies" className={`portifolio__technologies-bg ${darkMode ? "dark-mode" : ""} section_padding`}>
 
         <section className="portifolio__technologies-container">
-            <div className="gear1"><VscGear size={50} className = "rotate-center" opacity={0.3}/></div>
-            <div className="gear2"><VscGear size={50} className = "rotate-center" opacity={0.3}/></div>
-            <div className="gear3"><VscGear size={50} className = "rotate-center" opacity={0.3}/></div>
-            <h1 className="gradient__text">Tools</h1>
-            <div className="rect"/>
+            <div className="gear1"><VscGear size={50} className = "rotate-center" opacity={0.3} color={darkMode? "#fff":"#000"}/></div>
+            <div className="gear2"><VscGear size={50} className = "rotate-center" opacity={0.3} color={darkMode? "#fff":"#000"}/></div>
+            <div className="gear3"><VscGear size={50} className = "rotate-center" opacity={0.3} color={darkMode? "#fff":"#000"}/></div>
+            <h1 className={`gradient__text ${darkMode ? "dark-mode" : ""}`}>Tools</h1>
+            <div className={`rect ${darkMode ? "dark-mode" : ""}`}/>
             <p>Tools I use to make life easier</p>
             <div className="portifolio__technologies_tech-icons">
                 <FaHtml5 color="#dd4b25" size={100} className = "tech-icons"/>

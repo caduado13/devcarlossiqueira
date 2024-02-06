@@ -6,6 +6,14 @@
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E63946", endColorstr="#F1FAEE", GradientType=1 );
 }
 
+.portifolio__navbar__bg.dark-mode {
+    background: hsla(0, 0%, 10%, 1);
+    background: linear-gradient(270deg, hsla(355, 78%, 56%, 1) 0%, hsla(240, 6%, 10%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(355, 78%, 56%, 1) 0%, hsla(240, 6%, 10%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(355, 78%, 56%, 1) 0%, hsla(240, 6%, 10%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1A1A1A", endColorstr="#383838", GradientType=1 );
+}
+
 .portifolio__navbar{
     padding: 0 200px;
     display: flex;
@@ -35,8 +43,13 @@
 }
 .portifolio__navbar ul li a{
     text-decoration: none;
+    color: #151515; 
+    text-shadow:1px 1px 1px rgba(255, 255, 255, 0.6);
+}
+.portifolio__navbar ul li a.dark-mode{
+    text-decoration: none;
     color: var(--bg_color_white); 
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 .portifolio__navbar-mobile{

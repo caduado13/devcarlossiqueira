@@ -1,6 +1,9 @@
 .portifolio__about-bg{
     background-color: var(--bg_color_white);
 }
+.portifolio__about-bg.dark-mode{
+    background-color: var(--bg-dark-mode);
+}
 
 .portifolio__about{
     display: flex;
@@ -24,12 +27,22 @@
     z-index: 0;
 }
 
+.portifolio__about-content.dark-mode{
+    background: rgb(29, 53, 87);
+    background: linear-gradient(270deg,rgba(29, 53, 87, 1) 0%, rgba(26,26,26,1) 50%); 
+    color: #fff;
+}
+
 .portifolio__about-content h1{
     padding-bottom: 30px;
     font-size: 2rem;
     color: var(--bg_color_dblue);
     z-index: 1;
 
+}
+
+.portifolio__about-content h1.dark-mode{
+    color: #fff;
 }
 .portifolio__about-content p{
     font-size: 1.5rem;
@@ -46,6 +59,10 @@
     background-color:var(--bg_color_red);
     position: absolute;
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)
+}
+
+.path-about-h1.dark-mode{
+    background-color: hsl(0, 100%, 40%);
 }
 
 @media screen and (max-width: 1050px) {
