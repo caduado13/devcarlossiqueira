@@ -7,7 +7,7 @@
 body{
     overflow-x: hidden;
 }
-
+    
 .theme-button{
     display: flex;
     align-items: center;
@@ -29,21 +29,26 @@ body{
 .theme-button.dark-mode{
     background-color: rgba(255, 255, 255, 0.4);
     color: #000;
+    transition: all 600ms ease;
 }
 .theme-button_txt{
     padding-left: 9px;
 }
 .theme-button_txt::after{
     content: "Dark mode";
+    transition: all 600ms ease;
 }
 .theme-button_txt.dark-mode::after{
     content: "Light mode";
+    transition: all 600ms ease;
 }
 .theme-button:hover{
     background-color: rgba(0, 0, 0, 0.3);
+    transition: all 600ms ease;
 }
 .theme-button.dark-mode:hover{
     background-color: rgba(255, 255, 255, 0.3);
+    transition: all 600ms ease;
 }
 
 
@@ -52,12 +57,14 @@ body{
     background-clip: text;
     -webkit-background-clop: text;
     -webkit-text-fill-color: transparent;
+    transition: all 600ms ease;
 }
 .gradient__text.dark-mode{
     background: var(--gradient-text-dark-mode);
     background-clip: text;
     -webkit-background-clop: text;
     -webkit-text-fill-color: transparent;
+    transition: all 600ms ease;
 }
 
 .section_padding{
@@ -69,24 +76,29 @@ body{
     to bottom,
     rgba(0,117,179, 0.5),
     rgba(41,164,217, 0.5)
-  ), url("./assets/space.avif")
+  ), url("./assets/space.avif");
+  transition: all 600ms ease;  
 }
 .footer.dark-mode {
     background-image:  linear-gradient(
         to bottom,
         rgba(0,117,179, 0.1),
         rgba(41,164,217, 0.1)
-      ),url("./assets/space.avif")
+      ),url("./assets/space.avif");
+      transition: all 600ms ease;
 }
 
 .bg{
     background-color: var(--bg_color_white);
     padding: 100px 0;
+    transition: all 600ms ease;
 }
 
 .bg.dark-mode{
     background-color: var(--bg-dark-mode);
+    transition: all 600ms ease;
 }
+
 
 
 @media screen and (max-width: 767px) {

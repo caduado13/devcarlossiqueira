@@ -1,8 +1,10 @@
 .portifolio__projects-bg{
     background-color: var(--bg_color_white);
+    transition: all 600ms ease;
 }
 .portifolio__projects-bg.dark-mode{
     background-color: var(--bg-dark-mode);
+    transition: all 600ms ease;
 }
 
 .rect{
@@ -12,10 +14,12 @@
     background: radial-gradient(circle, rgba(230,57,70,1) 0%, rgba(69,123,157,1) 100%);
     position: absolute;
     top: 50px;
+    transition: all 600ms ease;
 }
 .rect.dark-mode{
     background: rgb(255, 255, 255);
     background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(230,57,70) 100%);
+    transition: all 600ms ease;
 }
 .portifolio__projects{
     max-width: 1280px;
@@ -28,10 +32,12 @@
     font-family: var(--font_family);
     font-size: 2rem;
     padding-bottom: 100px;
+    transition: all 600ms ease;
 }
 
 .main-h1.dark-mode{
     color: var(--bg_color_white);
+    transition: all 600ms ease;
 }
 
 .portifolio__projects-content{
