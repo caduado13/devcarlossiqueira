@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/devcarlossiqueira/static/css/main.03a1f58b.css",
+    "main.css": "/devcarlossiqueira/static/css/main.3595b907.css",
     "main.js": "/devcarlossiqueira/static/js/main.4f72705b.js",
     "static/media/task-management-bg.png": "/devcarlossiqueira/static/media/task-management-bg.a01595aa4c4b4b29a156.png",
     "static/media/movies-api-img.png": "/devcarlossiqueira/static/media/movies-api-img.aa72f7bcad747637f18c.png",
@@ -9,11 +9,11 @@
     "static/media/space.avif": "/devcarlossiqueira/static/media/space.acfeec54fa2cae9bafe0.avif",
     "static/media/dw-full.avif": "/devcarlossiqueira/static/media/dw-full.b15f0553a95a6343d34d.avif",
     "index.html": "/devcarlossiqueira/index.html",
-    "main.03a1f58b.css.map": "/devcarlossiqueira/static/css/main.03a1f58b.css.map",
+    "main.3595b907.css.map": "/devcarlossiqueira/static/css/main.3595b907.css.map",
     "main.4f72705b.js.map": "/devcarlossiqueira/static/js/main.4f72705b.js.map"
   },
   "entrypoints": [
-    "static/css/main.03a1f58b.css",
+    "static/css/main.3595b907.css",
     "static/js/main.4f72705b.js"
   ]
 }
